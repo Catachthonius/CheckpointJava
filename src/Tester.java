@@ -14,7 +14,8 @@ public class Tester {
 
         //garage.printArrayList();
 
-        System.out.println(garage.filterByFuel("Diesel"));
+        //System.out.println(garage.filterByFuel("Diesel"));
 
+        System.out.println(garage.totalValue());
     }
 }

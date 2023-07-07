@@ -28,4 +28,12 @@ public class Garage {
         }
         return listaVeicoli;
     }
+
+    public double totalValue() {
+        double sum = 0;
+        for (Vehicle veicolo : vehicleList) {
+        sum = sum + veicolo.getPrice();
+        }
+        return sum;
+    }
 }
